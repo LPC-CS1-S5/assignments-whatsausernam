@@ -16,6 +16,7 @@ int main(){
   tip = mealCost * .2;
   total = mealCost + tax + tip;
 
+
 cout << "Your food is $" << mealCost << endl;
 cout << "The tax is $" << setprecision(3) << tax << endl;
 cout << "A 20% tip will be $" << setprecision(4) << tip << endl;
