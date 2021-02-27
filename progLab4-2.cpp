@@ -28,7 +28,7 @@ if (amountSold >= 0){
   else if(amountSold < 100){
     discountRate = .4;
   }
-  else if(amountSold > 99){
+  else{
     discountRate = .5;
   }
   discountAmount = normalPrice * discountRate;
