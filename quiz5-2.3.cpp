@@ -20,7 +20,7 @@ int main(){
   for(i = begin ; i <= end; i++){
     for(int j = 2; j <= sqrt(i); j++){
       if(i % j == 0)
-        prime++;
+        prime++;  
     }
     if(prime == 0 && i != 1){
       cout << i <<" ";
