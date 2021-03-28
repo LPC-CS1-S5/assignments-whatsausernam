@@ -14,6 +14,7 @@ int main(){
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   cout << num1 << ", " << num2 << ", " << num3 << ", " << num4 << ", " << num5;
 
   if(num1 <= num2 & num1 <= num3 & num1 <= num4 & num1 <= num5){
@@ -22,6 +23,8 @@ int main(){
   else if(num2 < num1 & num2 < num3 & num2 < num4 & num2 < num5){
     cout << num2 << is;
 =======
+=======
+>>>>>>> origin/main
 =======
 >>>>>>> origin/main
 	// Tips:
@@ -41,6 +44,9 @@ int main(){
   else if(num2 < num1 & num2 < num3 & num2 < num4 & num2 < num5){
     cout << num2 << " is smallest";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
 =======
 >>>>>>> origin/main
@@ -56,6 +62,12 @@ int main(){
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  else{
+    cout << "one or more number is equal.";
+  }
+>>>>>>> origin/main
 =======
   else{
     cout << "one or more number is equal.";
