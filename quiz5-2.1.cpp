@@ -13,6 +13,7 @@ int main(){
   int num5 = rand() % 100;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   cout << num1 << ", " << num2 << ", " << num3 << ", " << num4 << ", " << num5;
 
   if(num1 <= num2 & num1 <= num3 & num1 <= num4 & num1 <= num5){
@@ -21,6 +22,8 @@ int main(){
   else if(num2 < num1 & num2 < num3 & num2 < num4 & num2 < num5){
     cout << num2 << is;
 =======
+=======
+>>>>>>> origin/main
 	// Tips:
 	// Use the for loop to make 5 iteration
 	// use the variable "min" to assume the current min value
@@ -37,6 +40,9 @@ int main(){
   }
   else if(num2 < num1 & num2 < num3 & num2 < num4 & num2 < num5){
     cout << num2 << " is smallest";
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
   }
   else if(num3 < num1 & num3 < num2 & num3 < num4 & num3 < num5){
@@ -49,6 +55,12 @@ int main(){
     cout << num5 << " is smallest";
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  else{
+    cout << "one or more number is equal.";
+  }
+>>>>>>> origin/main
 =======
   else{
     cout << "one or more number is equal.";
