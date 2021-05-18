@@ -27,7 +27,7 @@ int main(){
     classTotal = classTotal + score1 + score2;
   }
 
-  classAverage = classTotal / N;
+  classAverage = classTotal / (2 * N);
   cout << "Class Total: " << classTotal << endl;
   cout << "Class Average: " << classAverage << endl;
 
