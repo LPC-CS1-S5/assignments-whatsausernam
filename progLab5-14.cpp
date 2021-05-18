@@ -11,7 +11,7 @@ int main()
   unsigned seed = time(0);
   srand(seed);
 
-  cout << "Please enter the # of random numbers: ";
+  cout << "Please enter the # of random numbers: \n";
   cin >> N;
   ofs.open("data.txt");
   if(ofs.fail()){
@@ -23,7 +23,7 @@ int main()
     rdnum = rand() % 100;
     ofs << rdnum;
     if(! ofs.fail()){
-      cout << rdnum << " has written into the file. ";
+      cout << rdnum << " has written into the file. \n";
     }
   }
   ofs.close();

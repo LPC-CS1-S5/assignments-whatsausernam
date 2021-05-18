@@ -18,14 +18,14 @@ int main(){
 
   for(int i = 0; i < N; i++){
     cout << "Please enter the name of the student.\n";
-    cin >> stuName;
-    ofs << stuName;
+    cin >> stuName<< endl;
+    ofs << stuName << endl;
     cout << "Please enter score one for " << stuName << ".\n";
-    cin >> score1;
-    ofs << score1;
+    cin >> score1 << endl;
+    ofs << score1 << endl;
     cout << "Please enter score 2 for " << stuName << ".\n";
-    cin >> score2;
-    ofs << score2;
+    cin >> score2 << endl;
+    ofs << score2 << endl;
   }
 
   ofs.close();
