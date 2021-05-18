@@ -15,16 +15,17 @@ int main(){
 
   cout << "Please enter the amount of students\n";
   cin >> N;
+  ofs << N << endl;
 
   for(int i = 0; i < N; i++){
     cout << "Please enter the name of the student.\n";
-    cin >> stuName<< endl;
+    cin >> stuName;
     ofs << stuName << endl;
     cout << "Please enter score one for " << stuName << ".\n";
-    cin >> score1 << endl;
+    cin >> score1;
     ofs << score1 << endl;
     cout << "Please enter score 2 for " << stuName << ".\n";
-    cin >> score2 << endl;
+    cin >> score2;
     ofs << score2 << endl;
   }
 
